@@ -1,0 +1,6 @@
+[submodule "submodules/ace-jump-mode"]
+	path = submodules/ace-jump-mode
+	url = https://github.com/winterTTr/ace-jump-mode.git
+[submodule "submodules/expand-region"]
+	path = submodules/expand-region
+	url = https://github.com/magnars/expand-region.el.git
