@@ -4,3 +4,6 @@
 [submodule "submodules/expand-region"]
 	path = submodules/expand-region
 	url = https://github.com/magnars/expand-region.el.git
+[submodule "submodules/hardcore-mode"]
+	path = submodules/hardcore-mode
+	url = https://github.com/magnars/hardcore-mode.el.git
