@@ -21,3 +21,11 @@
 ;; Use shell-like backspace C-h, rebind help to F1
 (define-key key-translation-map [?\C-h] [?\C-?])
 (global-set-key (kbd "<f1>") 'help-command)
+
+(defun ansi-term-bash ()
+  (interactive)
+  (ansi-term "/bin/bash")
+  )
+
+;; Add key binding for ansi terminal.
+(global-set-key (kbd "C-c t") 'ansi-term-bash)
