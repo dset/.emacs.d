@@ -7,3 +7,6 @@
 [submodule "submodules/hardcore-mode"]
 	path = submodules/hardcore-mode
 	url = https://github.com/magnars/hardcore-mode.el.git
+[submodule "submodules/yasnippet"]
+	path = submodules/yasnippet
+	url = https://github.com/capitaomorte/yasnippet.git

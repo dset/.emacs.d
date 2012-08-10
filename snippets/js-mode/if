@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Dan Setterquist <dansetterquist@gmail.com>
+# name: if(...) {...}
+# key: if
+# --
+if($1) {
+    $0
+}
