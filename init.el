@@ -34,3 +34,6 @@
 
 ;; Add key binding for ansi terminal.
 (global-set-key (kbd "C-c t") 'ansi-term-bash)
+
+;; Add line numbers
+(global-linum-mode 1)
