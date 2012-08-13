@@ -17,6 +17,7 @@
 ;; Add hardcore mode
 (add-to-list 'load-path "~/.emacs.d/submodules/hardcore-mode/")
 (require 'hardcore-mode)
+(global-hardcore-mode 1)
 
 ;; Add yasnippets
 (add-to-list 'load-path "~/.emacs.d/submodules/yasnippet/")
