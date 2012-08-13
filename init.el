@@ -7,7 +7,7 @@
 ;; Add ace jump mode
 (add-to-list 'load-path "~/.emacs.d/submodules/ace-jump-mode/")
 (require 'ace-jump-mode)
-(define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
+(define-key global-map (kbd "C-ö") 'ace-jump-mode)
 
 ;; Add expand region
 (add-to-list 'load-path "~/.emacs.d/submodules/expand-region/")
