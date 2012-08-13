@@ -38,3 +38,8 @@
 
 ;; Add line numbers
 (global-linum-mode 1)
+
+;; Remove GUI
+(scroll-bar-mode -1)
+(tool-bar-mode -1)
+(menu-bar-mode -1)
