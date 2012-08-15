@@ -27,6 +27,14 @@
 ;; Add magit
 (require 'magit)
 
+;; Add color theme
+(add-to-list 'load-path "~/.emacs.d/color-theme/")
+(require 'color-theme)
+(eval-after-load "color-theme"
+  '(progn
+     (color-theme-initialize)
+     (color-theme-billw)))
+
 ;; Use shell-like backspace C-h, rebind help to F1
 (define-key key-translation-map [?\C-h] [?\C-?])
 (global-set-key (kbd "<f1>") 'help-command)
