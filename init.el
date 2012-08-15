@@ -36,6 +36,9 @@
 ;; Add key binding for ansi terminal.
 (global-set-key (kbd "C-c t") 'ansi-term-bash)
 
+;; M-x => C-c C-m
+(global-set-key "\C-c\C-m" 'execute-extended-command)
+
 ;; Add line numbers
 (global-linum-mode 1)
 
