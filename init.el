@@ -15,9 +15,9 @@
 (define-key global-map (kbd "C-ä") 'er/expand-region)
 
 ;; Add hardcore mode
-(add-to-list 'load-path "~/.emacs.d/submodules/hardcore-mode/")
-(require 'hardcore-mode)
-(global-hardcore-mode 1)
+;;(add-to-list 'load-path "~/.emacs.d/submodules/hardcore-mode/")
+;;(require 'hardcore-mode)
+;;(global-hardcore-mode 1)
 
 ;; Add yasnippets
 (add-to-list 'load-path "~/.emacs.d/submodules/yasnippet/")
@@ -34,6 +34,16 @@
   '(progn
      (color-theme-initialize)
      (color-theme-billw)))
+
+;; Add php mode
+(add-to-list 'load-path "~/.emacs.d/submodules/")
+(require 'php-mode)
+
+;; Add whitespace
+(require 'whitespace)
+
+;; Prevent Extraneous Tabs
+(setq-default indent-tabs-mode nil)
 
 ;; Use shell-like backspace C-h, rebind help to F1
 (define-key key-translation-map [?\C-h] [?\C-?])
@@ -56,4 +66,4 @@
 ;; Remove GUI
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
-(menu-bar-mode -1)
+;;(menu-bar-mode -1)
